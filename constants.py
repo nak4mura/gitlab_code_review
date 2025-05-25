@@ -1,0 +1,9 @@
+GITLAB_URL = 'https://gitlab.com'
+GIT_API_PER_PAGE = 100 # GIT APIの1ページあたりのアイテム数 上限100
+PROJECT_ID = <your_project_id_here>  # プロジェクトID（数値）。リポジトリの設定から確認可能
+MODEL_NAME = "gpt-4.1-nano"
+TEMPERATURE = 0.2
+MAX_TOKENS = 4096
+TIKTOKEN_MODEL = "gpt-4"
+TOKENS_PER_MESSAGE = 3  # role + contentなど
+TOKENS_PER_NAME = 1     # nameがある場合
